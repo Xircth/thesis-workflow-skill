@@ -1,9 +1,25 @@
 # Thesis Workflow Agent Skill
 
+[![skills.sh](https://skills.sh/b/Xircth/thesis-workflow-skill)](https://skills.sh/Xircth/thesis-workflow-skill)
+
 `thesis-workflow-agent` 是一套面向论文编写、修改、优化、降 AIGC、参考文献补证、论文插图与 Word 正式落地的 Codex Skill。它以总控 Skill 的方式编排论文全流程，并内嵌两个核心子 Skill：
 
 - `skills/minimax-docx`：负责 `.docx` 创建、编辑、套模板、排版、OpenXML 校验。
 - `skills/thesis-optimizer`：负责论文章节诊断、扩写、删减、润色、转义、降重、降低 AIGC 风险。
+
+## 安装
+
+查看仓库中可被 `skills` CLI 发现的 Skill：
+
+```bash
+npx skills add Xircth/thesis-workflow-skill --list
+```
+
+安装到 Codex 全局 Skill 目录：
+
+```bash
+npx skills add Xircth/thesis-workflow-skill -g -a codex
+```
 
 ## 适用场景
 
