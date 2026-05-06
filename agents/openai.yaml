@@ -1,0 +1,4 @@
+interface:
+  display_name: "论文全流程代理"
+  short_description: "编排论文资料检查、写作、优化、AIGC报告闭环与Word落地。"
+  default_prompt: "请使用 thesis-workflow-agent 扫描当前论文工作区，建立论文工作台并给出下一步执行方案。"

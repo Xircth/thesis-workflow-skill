@@ -1,0 +1,50 @@
+# Secrets and local config
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+*secret*
+*token*
+*apikey*
+*api-key*
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.ruff_cache/
+
+# .NET build outputs from bundled minimax-docx
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.deps.json
+*.runtimeconfig.json
+
+# Node/build caches
+node_modules/
+dist/
+build/
+.cache/
+
+# Generated thesis/runtime artifacts
+chapters/
+images/generated/
+reports/
+outputs/
+logs/
+*.tmp
+*.bak
+*.log
+~$*
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

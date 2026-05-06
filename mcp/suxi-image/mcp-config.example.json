@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "suxi-image": {
+      "command": "python",
+      "args": [
+        "C:/Users/Administrator/.agents/skills/thesis-workflow-agent/mcp/suxi-image/suxi_image_mcp.py"
+      ],
+      "env": {
+        "SUXI_API_KEY": "REPLACE_WITH_USER_PROVIDED_KEY_IN_LOCAL_CONFIG_ONLY"
+      }
+    }
+  }
+}
